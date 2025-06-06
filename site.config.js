@@ -13,15 +13,15 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `PhysicalMouse-Blog`,
-      href: "",
+      name: `PhysicalMouse's Blog`,
+      href: "123",
     },
   ],
   // blog setting (required)
   blog: {
     title: "PhysicalMouse-Blog",
     description: "welcome to PhysicalMouse-Blog!",
-    scheme: "dark", // 'light' | 'dark' | 'system'
+    scheme: "system", // 'light' | 'dark' | 'system'
   },
 
   // CONFIG configration (required)
