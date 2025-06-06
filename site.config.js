@@ -6,7 +6,7 @@ const CONFIG = {
     role: "Blender Artist",
     bio: "Blender is the best 3D design software！",
     email: "PhysicalMouse1999@gmail.com",
-    linkedin: "",
+    youtube: "PhysicalMouse",
     github: "",
     instagram: "",
   },
