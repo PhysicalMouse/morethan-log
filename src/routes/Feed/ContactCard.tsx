@@ -1,7 +1,7 @@
 import styled from "@emotion/styled"
 import React from "react"
 import {
-  AiFillLinkedin,
+  AiFillYoutube,
   AiOutlineGithub,
   AiOutlineInstagram,
   AiOutlineMail,
@@ -47,14 +47,14 @@ const ContactCard: React.FC = () => {
             <div className="name">email</div>
           </a>
         )}
-        {CONFIG.profile.linkedin && (
+        {CONFIG.profile.youtube && (
           <a
-            href={`https://www.linkedin.com/in/${CONFIG.profile.linkedin}`}
+            href={`https://www.youtube.com/@${CONFIG.profile.youtube}`}
             rel="noreferrer"
             target="_blank"
           >
-            <AiFillLinkedin className="icon" />
-            <div className="name">linkedin</div>
+            <AiFillYoutube className="icon" />
+            <div className="name">youtube</div>
           </a>
         )}
       </StyledWrapper>
