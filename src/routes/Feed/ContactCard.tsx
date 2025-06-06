@@ -4,7 +4,7 @@ import {
   AiFillYoutube,
   AiOutlineGithub,
   AiOutlineInstagram,
-  AiOutlineMail,
+  AiTwotoneMail,
 } from "react-icons/ai"
 import { CONFIG } from "site.config"
 import { Emoji } from "src/components/Emoji"
@@ -43,7 +43,7 @@ const ContactCard: React.FC = () => {
             target="_blank"
             css={{ overflow: "hidden" }}
           >
-            <AiOutlineMail className="icon" />
+            <AiTwotoneMail className="icon" />
             <div className="name">email</div>
           </a>
         )}
