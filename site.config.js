@@ -19,8 +19,8 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "PhysicalMouse-Blog",
-    description: "welcome to PhysicalMouse-Blog!",
+    title: "PhysicalMouse's Blog",
+    description: "welcome to PhysicalMouse's Blog!",
     scheme: "system", // 'light' | 'dark' | 'system'
   },
 
