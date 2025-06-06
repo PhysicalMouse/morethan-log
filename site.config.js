@@ -9,6 +9,7 @@ const CONFIG = {
     youtube: "PhysicalMouse",
     github: "",
     instagram: "",
+    FaArtstation: "physicalmouse",
   },
   projects: [
     {
