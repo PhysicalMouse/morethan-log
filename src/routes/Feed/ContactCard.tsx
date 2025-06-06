@@ -6,8 +6,16 @@ import {
   AiOutlineInstagram,
   AiTwotoneMail,
 } from "react-icons/ai"
+
+import { FaArtstation } from "react-icons/fa";
+
+
 import { CONFIG } from "site.config"
 import { Emoji } from "src/components/Emoji"
+
+
+
+
 
 const ContactCard: React.FC = () => {
   return (
@@ -57,10 +65,25 @@ const ContactCard: React.FC = () => {
             <div className="name">youtube</div>
           </a>
         )}
+        {CONFIG.profile.artstation && (
+          <a
+            href={`https://www.artstation.com/${CONFIG.profile.youtube}`}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <FaArtstation className="icon" />
+            <div className="name">artstation</div>
+          </a>
+        )}
       </StyledWrapper>
     </>
   )
 }
+
+
+
+
+
 
 export default ContactCard
 
