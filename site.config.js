@@ -5,8 +5,8 @@ const CONFIG = {
     image: "/avatar.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Blender Artist",
     bio: "Blender is the best 3D design software！",
-    email: "PhysicalMouse1999@gmail.com",
-    youtube: "PhysicalMouse",
+    Email: "PhysicalMouse1999@gmail.com",
+    YouTube: "PhysicalMouse",
     github: "",
     instagram: "",
     artstation: "physicalmouse",
@@ -14,7 +14,7 @@ const CONFIG = {
   projects: [
     {
       name: `PhysicalMouse's Blog`,
-      href: "123",
+      href: "",
     },
   ],
   // blog setting (required)

@@ -44,25 +44,25 @@ const ContactCard: React.FC = () => {
             <div className="name">instagram</div>
           </a>
         )}
-        {CONFIG.profile.email && (
+        {CONFIG.profile.Email && (
           <a
-            href={`mailto:${CONFIG.profile.email}`}
+            href={`mailto:${CONFIG.profile.Email}`}
             rel="noreferrer"
             target="_blank"
             css={{ overflow: "hidden" }}
           >
             <AiTwotoneMail className="icon" />
-            <div className="name">email</div>
+            <div className="name">Email</div>
           </a>
         )}
-        {CONFIG.profile.youtube && (
+        {CONFIG.profile.YouTube && (
           <a
-            href={`https://www.youtube.com/@${CONFIG.profile.youtube}`}
+            href={`https://www.youtube.com/@${CONFIG.profile.YouTube}`}
             rel="noreferrer"
             target="_blank"
           >
             <AiFillYoutube className="icon" />
-            <div className="name">youtube</div>
+            <div className="name">YouTube</div>
           </a>
         )}
         {CONFIG.profile.artstation && (
