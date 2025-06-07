@@ -65,14 +65,14 @@ const ContactCard: React.FC = () => {
             <div className="name">youtube</div>
           </a>
         )}
-        {CONFIG.profile.artstation && (
+        {CONFIG.profile.Artstation && (
           <a
-            href={`https://www.artstation.com/${CONFIG.profile.youtube}`}
+            href={`https://www.artstation.com/${CONFIG.profile.Artstation}`}
             rel="noreferrer"
             target="_blank"
           >
             <FaArtstation className="icon" />
-            <div className="name">artstation</div>
+            <div className="name">Artstation</div>
           </a>
         )}
       </StyledWrapper>
