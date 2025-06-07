@@ -55,14 +55,14 @@ const ContactCard: React.FC = () => {
             <div className="name">email</div>
           </a>
         )}
-        {CONFIG.profile.youtube && (
+        {CONFIG.profile.YouTube && (
           <a
-            href={`https://www.youtube.com/@${CONFIG.profile.youtube}`}
+            href={`https://www.youtube.com/@${CONFIG.profile.YouTube}`}
             rel="noreferrer"
             target="_blank"
           >
             <AiFillYoutube className="icon" />
-            <div className="name">youtube</div>
+            <div className="name">YouTube</div>
           </a>
         )}
         {CONFIG.profile.Artstation && (
