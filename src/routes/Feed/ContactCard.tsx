@@ -8,7 +8,7 @@ import {
 } from "react-icons/ai"
 
 import { FaArtstation } from "react-icons/fa";
-
+import { FaPixiv } from "react-icons/fa6";
 
 import { CONFIG } from "site.config"
 import { Emoji } from "src/components/Emoji"
@@ -34,14 +34,14 @@ const ContactCard: React.FC = () => {
             <div className="name">github</div>
           </a>
         )}
-        {CONFIG.profile.instagram && (
+        {CONFIG.profile.Pixiv && (
           <a
-            href={`https://www.instagram.com/${CONFIG.profile.instagram}`}
+            href={`https://www.pixiv.net/users/117016242`}
             rel="noreferrer"
             target="_blank"
           >
-            <AiOutlineInstagram className="icon" />
-            <div className="name">instagram</div>
+            <FaPixiv className="icon" />
+            <div className="name">Pixiv</div>
           </a>
         )}
         {CONFIG.profile.Email && (
