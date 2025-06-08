@@ -35,18 +35,6 @@ const ContactCard: React.FC = () => {
             <div className="name">github</div>
           </a>
         )}
-
-        {CONFIG.profile.Pixiv && (
-          <a
-            href={`https://www.pixiv.net/users/${CONFIG.profile.Pixiv}`}
-            rel="noreferrer"
-            target="_blank"
-          >
-            <SiPixiv className="icon" />
-            <div className="name">Pixiv</div>
-          </a>
-        )}
-        
         {CONFIG.profile.Email && (
           <a
             href={`mailto:${CONFIG.profile.Email}`}
@@ -56,6 +44,16 @@ const ContactCard: React.FC = () => {
           >
             <AiTwotoneMail className="icon" />
             <div className="name">Email</div>
+          </a>
+        )}
+        {CONFIG.profile.Pixiv && (
+          <a
+            href={`https://www.pixiv.net/users/${CONFIG.profile.Pixiv}`}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <SiPixiv className="icon" />
+            <div className="name">Pixiv</div>
           </a>
         )}
         {CONFIG.profile.YouTube && (
