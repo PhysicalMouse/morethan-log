@@ -4,10 +4,11 @@ import {
   AiFillYoutube,
   AiOutlineGithub,
   AiTwotoneMail,
-} from "react-icons/ai"
+} from "react-icons/ai";
 
-import { FaArtstation } from "react-icons/fa";
 import { FaPixiv } from "react-icons/fa6";
+import { FaArtstation } from "react-icons/fa";
+
 
 
 import { CONFIG } from "site.config"
@@ -34,6 +35,7 @@ const ContactCard: React.FC = () => {
             <div className="name">github</div>
           </a>
         )}
+
         {CONFIG.profile.Pixiv && (
           <a
             href={`https://www.pixiv.net/users/${CONFIG.profile.Pixiv}`}
@@ -44,6 +46,7 @@ const ContactCard: React.FC = () => {
             <div className="name">Pixiv</div>
           </a>
         )}
+        
         {CONFIG.profile.Email && (
           <a
             href={`mailto:${CONFIG.profile.Email}`}
