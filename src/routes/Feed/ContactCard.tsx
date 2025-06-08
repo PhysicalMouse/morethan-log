@@ -46,6 +46,16 @@ const ContactCard: React.FC = () => {
             <div className="name">Email</div>
           </a>
         )}
+        {CONFIG.profile.Artstation && (
+          <a
+            href={`https://www.artstation.com/${CONFIG.profile.Artstation}`}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <FaArtstation className="icon" />
+            <div className="name">Artstation</div>
+          </a>
+        )}
         {CONFIG.profile.Pixiv && (
           <a
             href={`https://www.pixiv.net/users/${CONFIG.profile.Pixiv}`}
@@ -66,16 +76,7 @@ const ContactCard: React.FC = () => {
             <div className="name">YouTube</div>
           </a>
         )}
-        {CONFIG.profile.Artstation && (
-          <a
-            href={`https://www.artstation.com/${CONFIG.profile.Artstation}`}
-            rel="noreferrer"
-            target="_blank"
-          >
-            <FaArtstation className="icon" />
-            <div className="name">Artstation</div>
-          </a>
-        )}
+
       </StyledWrapper>
     </>
   )
