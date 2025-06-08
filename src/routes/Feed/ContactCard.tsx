@@ -9,6 +9,7 @@ import {
 import { FaArtstation } from "react-icons/fa";
 import { FaPixiv } from "react-icons/fa6";
 
+
 import { CONFIG } from "site.config"
 import { Emoji } from "src/components/Emoji"
 
@@ -35,11 +36,11 @@ const ContactCard: React.FC = () => {
         )}
         {CONFIG.profile.Pixiv && (
           <a
-            href={`https://www.pixiv.net/users/${CONFIG.profile.Pixiv}`}
+            href={`https://www.pixiv.net/users/117016242`}
             rel="noreferrer"
             target="_blank"
           >
-            <FaPixiv className="icon" />
+            <AiFillYoutube className="icon" />
             <div className="name">Pixiv</div>
           </a>
         )}
