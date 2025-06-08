@@ -34,13 +34,14 @@ const ContactCard: React.FC = () => {
             <div className="name">github</div>
           </a>
         )}
+
         {CONFIG.profile.Pixiv && (
           <a
             href={`https://www.pixiv.net/users/117016242`}
             rel="noreferrer"
             target="_blank"
           >
-            <AiFillYoutube className="icon" />
+            <FaPixiv className="icon" />
             <div className="name">Pixiv</div>
           </a>
         )}
