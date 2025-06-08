@@ -4,9 +4,9 @@ import {
   AiFillYoutube,
   AiOutlineGithub,
   AiTwotoneMail,
-} from "react-icons/ai"
+} from "react-icons/ai";
 
-import { FaPixiv } from "react-icons/fa6"
+import { SiPixiv } from "react-icons/si"
 import { FaArtstation } from "react-icons/fa"
 
 
@@ -42,7 +42,7 @@ const ContactCard: React.FC = () => {
             rel="noreferrer"
             target="_blank"
           >
-            <FaPixiv className="icon" />
+            <SiPixiv className="icon" />
             <div className="name">Pixiv</div>
           </a>
         )}
