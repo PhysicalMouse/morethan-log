@@ -36,7 +36,7 @@ const ContactCard: React.FC = () => {
         )}
         {CONFIG.profile.Pixiv && (
           <a
-            href={`https://www.pixiv.net/users/117016242`}
+            href={`https://www.pixiv.net/users/${CONFIG.profile.Pixiv}`}
             rel="noreferrer"
             target="_blank"
           >

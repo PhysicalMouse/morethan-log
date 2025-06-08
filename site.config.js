@@ -8,7 +8,7 @@ const CONFIG = {
     Email: "PhysicalMouse1999@gmail.com",
     YouTube: "PhysicalMouse",
     github: "",
-    Pixiv: "PhysicalMouse",
+    Pixiv: "117016242",
     Artstation: "PhysicalMouse",
   },
   projects: [
