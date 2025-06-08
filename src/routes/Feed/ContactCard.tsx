@@ -4,10 +4,10 @@ import {
   AiFillYoutube,
   AiOutlineGithub,
   AiTwotoneMail,
-} from "react-icons/ai";
+} from "react-icons/ai"
 
-import { FaPixiv } from "react-icons/fa6";
-import { FaArtstation } from "react-icons/fa";
+import { FaPixiv } from "react-icons/fa6"
+import { FaArtstation } from "react-icons/fa"
 
 
 
