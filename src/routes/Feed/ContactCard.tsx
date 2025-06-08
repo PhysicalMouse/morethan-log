@@ -3,7 +3,6 @@ import React from "react"
 import {
   AiFillYoutube,
   AiOutlineGithub,
-  AiOutlineInstagram,
   AiTwotoneMail,
 } from "react-icons/ai"
 
