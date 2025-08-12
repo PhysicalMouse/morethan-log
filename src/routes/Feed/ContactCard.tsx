@@ -59,7 +59,7 @@ const ContactCard: React.FC = () => {
           </a>
         )}
 
-        
+
         {CONFIG.profile.Artstation && (
           <a
             href={`https://www.artstation.com/${CONFIG.profile.Artstation}`}
@@ -80,7 +80,8 @@ const ContactCard: React.FC = () => {
             <div className="name">Pixiv</div>
           </a>
         )}
-        
+
+
        {CONFIG.profile.YouTube && (
           <a
             href={`https://www.youtube.com/@${CONFIG.profile.YouTube}`}
