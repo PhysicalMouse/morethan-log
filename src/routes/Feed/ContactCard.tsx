@@ -8,7 +8,7 @@ import {
 
 import { SiPixiv } from "react-icons/si"
 import { FaArtstation } from "react-icons/fa"
-
+import { FaSquareXTwitter } from "react-icons/fa6";
 
 
 import { CONFIG } from "site.config"
@@ -77,6 +77,16 @@ const ContactCard: React.FC = () => {
           </a>
         )}
 
+        {CONFIG.profile.X && (
+          <a
+            href={`https://x.com/@${CONFIG.profile.X}`}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <FaSquareXTwitter className="icon" />
+            <div className="name">X</div>
+          </a>
+        )}
       </StyledWrapper>
     </>
   )
