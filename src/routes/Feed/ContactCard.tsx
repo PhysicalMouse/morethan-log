@@ -3,8 +3,8 @@ import React from "react"
 import {
   AiFillYoutube,
   AiOutlineGithub,
-  AiTwotoneMail,
-} from "react-icons/ai";
+  AiTwotoneMail
+} from "react-icons/ai"
 
 import { SiPixiv } from "react-icons/si"
 import { FaArtstation } from "react-icons/fa"
