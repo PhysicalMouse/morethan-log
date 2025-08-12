@@ -6,7 +6,7 @@ const CONFIG = {
     role: "Chinese Blender Artist",
     bio: "Blender is the best 3D design software！",
     Email: "PhysicalMouse1999@gmail.com",
-    //YouTube: "PhysicalMouse",
+    YouTube: "",
     X: "PhyMouse10086",
     github: "",
     Pixiv: "117016242",

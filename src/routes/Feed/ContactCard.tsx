@@ -66,7 +66,8 @@ const ContactCard: React.FC = () => {
             <div className="name">Pixiv</div>
           </a>
         )}
-        {CONFIG.profile.YouTube && (
+        
+       {CONFIG.profile.YouTube && (
           <a
             href={`https://www.youtube.com/@${CONFIG.profile.YouTube}`}
             rel="noreferrer"
@@ -75,7 +76,7 @@ const ContactCard: React.FC = () => {
             <AiFillYoutube className="icon" />
             <div className="name">YouTube</div>
           </a>
-        )}
+        )}  
 
         {CONFIG.profile.X && (
           <a
