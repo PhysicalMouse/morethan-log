@@ -5,7 +5,7 @@ import {
   AiOutlineGithub,
   AiTwotoneMail
 } from "react-icons/ai"
-import { FaSquareXTwitter } from "react-icons/fa6"
+import { RiTwitterXLine } from "react-icons/ri"
 import { SiPixiv } from "react-icons/si"
 import { FaArtstation } from "react-icons/fa"
 import { CONFIG } from "site.config"
@@ -81,7 +81,7 @@ const ContactCard: React.FC = () => {
             rel="noreferrer"
             target="_blank"
           >
-            <FaSquareXTwitter className="icon" />
+            <RiTwitterXLine className="icon" />
             <div className="name">X</div>
           </a>
         )}
