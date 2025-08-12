@@ -8,7 +8,7 @@ import {
 
 import { SiPixiv } from "react-icons/si"
 import { FaArtstation } from "react-icons/fa"
-import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaSquareXTwitter } from "react-icons/fa6"
 
 
 import { CONFIG } from "site.config"
