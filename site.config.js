@@ -9,7 +9,7 @@ const CONFIG = {
     YouTube: "",
     X: "PhyMouse10086",
     github: "",
-    Pixiv: "117016242",
+    Pixiv: "",
     Artstation: "PhysicalMouse",
   },
   projects: [

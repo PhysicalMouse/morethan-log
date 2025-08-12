@@ -46,6 +46,20 @@ const ContactCard: React.FC = () => {
             <div className="name">Email</div>
           </a>
         )}
+
+
+        {CONFIG.profile.X && (
+          <a
+            href={`https://x.com/@${CONFIG.profile.X}`}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <FaSquareXTwitter className="icon" />
+            <div className="name">X</div>
+          </a>
+        )}
+
+        
         {CONFIG.profile.Artstation && (
           <a
             href={`https://www.artstation.com/${CONFIG.profile.Artstation}`}
@@ -78,16 +92,7 @@ const ContactCard: React.FC = () => {
           </a>
         )}  
 
-        {CONFIG.profile.X && (
-          <a
-            href={`https://x.com/@${CONFIG.profile.X}`}
-            rel="noreferrer"
-            target="_blank"
-          >
-            <FaSquareXTwitter className="icon" />
-            <div className="name">X</div>
-          </a>
-        )}
+
       </StyledWrapper>
     </>
   )
