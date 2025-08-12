@@ -6,6 +6,7 @@ import {
   AiTwotoneMail
 } from "react-icons/ai"
 
+
 import { FaSquareXTwitter } from "react-icons/fa6"
 import { SiPixiv } from "react-icons/si"
 import { FaArtstation } from "react-icons/fa"
