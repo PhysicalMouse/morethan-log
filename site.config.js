@@ -7,7 +7,7 @@ const CONFIG = {
     bio: "Blender is the best 3D design software！",
     Email: "PhysicalMouse1999@gmail.com",
     YouTube: "",
-    X: "PhyMouse10086",
+    X: "",
     github: "PhysicalMouse",
     Pixiv: "",
     Artstation: "PhysicalMouse",
