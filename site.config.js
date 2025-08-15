@@ -4,7 +4,7 @@ const CONFIG = {
     name: "PhysicalMouse",
     image: "/avatar.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Blender Artist",
-    bio: "Blender is the best 3D design software！",
+    bio: "Blender is the best 3D design software！",    
     Email: "PhysicalMouse1999@gmail.com",
     YouTube: "",
     X: "",
@@ -12,9 +12,9 @@ const CONFIG = {
     Pixiv: "",
     Artstation: "PhysicalMouse",
   },
-  projects: [
+  projects: [                 //这个是Service                             
     {
-      name: `PhysicalMouse's Blog`,
+      name: "",
       href: "",
     },
   ],
@@ -22,7 +22,7 @@ const CONFIG = {
   blog: {
     title: "PhysicalMouse's Blog",
     description: "welcome to PhysicalMouse's Blog!",
-    scheme: "system", // 'light' | 'dark' | 'system'
+    scheme: "light", // 'light' | 'dark' | 'system'
   },
 
   // CONFIG configration (required)
