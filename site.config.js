@@ -14,8 +14,8 @@ const CONFIG = {
   },
   projects: [                 //这个是Service                             
     {
-      name: "",
-      href: "",
+      name: "PhysicalMouse's Blog",
+      href: "https://vercel.cfambor.fun",
     },
   ],
   // blog setting (required)
