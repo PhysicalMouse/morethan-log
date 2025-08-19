@@ -43,6 +43,10 @@ class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
+          {/* Analytics */}
+          <Analytics />
+          {/* Speed Insights */}
+          <SpeedInsights/>
         </body>
       </Html>
     )
