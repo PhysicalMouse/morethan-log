@@ -10,10 +10,12 @@ function App({ Component, pageProps }: AppPropsWithLayout) {
 
   return (
     <QueryClientProvider client={queryClient}>
-      <Hydrate state={pageProps.dehydratedState}>
-        <RootLayout>{getLayout(<Component {...pageProps} />)}</RootLayout>
-      </Hydrate>
+    <Hydrate state={pageProps.dehydratedState}>
+    <RootLayout>{getLayout(<Component {...pageProps} />)}</RootLayout>
+    </Hydrate>
     </QueryClientProvider>
+    <Analytics />
+    <SpeedInsights />
   )
 }
 
