@@ -1,6 +1,6 @@
 import { useQuery, useQueryClient } from "@tanstack/react-query"
 import { getCookie, setCookie } from "cookies-next"
-import { useEffect } from "react"
+import { useEffect, useCallback } from "react" // 1. 导入 useCallback
 import { CONFIG } from "site.config"
 import { queryKey } from "src/constants/queryKey"
 import { SchemeType } from "src/types"
@@ -19,11 +19,12 @@ const useScheme = (): [SchemeType, SetScheme] => {
       : (CONFIG.blog.scheme as SchemeType),
   })
 
-  const setScheme = (scheme: SchemeType) => {
+  // 2. 使用 useCallback 包装 setScheme 函数
+  const setScheme = useCallback((scheme: SchemeType) => {
     setCookie("scheme", scheme)
 
     queryClient.setQueryData(queryKey.scheme(), scheme)
-  }
+  }, [queryClient]) // 3. 添加 useCallback 的依赖项
 
   useEffect(() => {
     if (!window) return
