@@ -7,10 +7,10 @@ const CONFIG = {
     bio: "Blender is the best 3D design software！",    
     Email: "PhysicalMouse1999@gmail.com",
     YouTube: "",
-    X: "",
+    X: "PhyMouse10086",
     github: "PhysicalMouse",
     Pixiv: "",
-    Artstation: "PhysicalMouse",
+    Artstation: "",
   },
   projects: [                 //这个是Service                             
     {
