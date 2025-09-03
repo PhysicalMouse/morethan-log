@@ -5,7 +5,7 @@ const CONFIG = {
     image: "/Evelyn-头像-1400x1400.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Blender Artist",
     bio: "Blender is the best 3D design software！",    
-    Email: "PhysicalMouse1999@gmail.com",
+    Email: "604561163@qq.com",
     YouTube: "",
     X: "PhyMouse10086",
     github: "PhysicalMouse",
