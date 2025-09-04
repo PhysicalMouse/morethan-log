@@ -40,7 +40,6 @@ class MyDocument extends Document {
           <meta name="baidu-site-verification" content="codeva-fN1CHA3fGo" />
         </Head>
         <body>
-          <h1>PhysicalMouse Personal Blog for Blender Tips and Artwork Showcase</h1>
           <Main />
           <NextScript />
         </body>
