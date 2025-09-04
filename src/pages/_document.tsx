@@ -38,8 +38,8 @@ class MyDocument extends Document {
           )}
           {/* baidu search advisor */}
           <meta name="baidu-site-verification" content="codeva-fN1CHA3fGo" />
-          
         </Head>
+        <h1>PhysicalMouse's Personal Blog for Blender Tips and Artwork Showcase！</h1>
         <body>
           <Main />
           <NextScript />
