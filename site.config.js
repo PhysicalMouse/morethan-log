@@ -2,7 +2,7 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "PhysicalMouse",
-    image: "/Evelyn-头像-1400x1400.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    image: "/Evelyn-头像-1400x1400.png",  // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Blender Artist",
     bio: "Blender is the best 3D design software！",    
     Email: "",
